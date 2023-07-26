@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.Gallery{
+    margin-top: 100px;
+    text-align: center;
+    color: azure;
+}
+
+.photos{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flexbox;
+    
+}
+p{
+    position: relative;
+    text-align: center;
+    
+   
+}
+
+img{
+    position: relative;
+    height: 210px;
+    width: 210px;
+    border-radius: 12px;
+    margin: 30px;
+    filter: grayscale(100%);
+    box-shadow: 0 0 5px 0;
+    
+}
+
+img:hover{
+    transition: 0.3s;
+    transform: perspective(3550px) translateZ(250px);
+    filter: grayscale(0%);
+}
